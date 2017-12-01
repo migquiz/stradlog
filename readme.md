@@ -58,4 +58,10 @@ tree, the top most most node in the stack (recursion) will be the deepest node
 in the tree. One more thing in recursion , you focus on what you want to happen  
 then considering other things, everything will be fine , hopefully.
 
-Graphs here we go.
+Graphs here we go. To be an element of container in C++, the class/type should be  
+moveable or copy-able or swappable (lol) , this is the so called element requirements  
+if you want to know more then research it.That's why the rule of three, should be mastered.  
+In the analysis of an algorithm using the space complexity, one must determine if the  
+analysis used is including the input or not because sometimes the additional input  
+was only considered.  
+
